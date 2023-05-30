@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon server.js"
   },
   "author": "Alexey Lizurchik <al.lizurchik@gmail.com>",
   "license": "MIT",
@@ -17,8 +18,13 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "colors": "^1.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "mime": "^1.2.11",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22",
     "request": "^2.53.0",
+    "simple-resume-parser": "^1.1.8",
     "textract": "^2.5.0",
     "underscore": "^1.7.0",
     "unzip": "^0.1.11",
