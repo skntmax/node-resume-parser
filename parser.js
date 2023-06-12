@@ -12,7 +12,8 @@ const resume = new ResumeParser(filePath+`/${fileName}`);
 // const resume = new ResumeParser("https://writing.colostate.edu/guides/documents/resume/functionalSample.pdf");
 
 //Convert to JSON Object
-  return resume.parseToJSON()
+  
+return resume.parseToJSON()
   .then(data => {
     return  data 
   })
